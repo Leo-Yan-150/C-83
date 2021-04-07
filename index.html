@@ -2,27 +2,25 @@
 <head>  
 <link rel="stylesheet" type="text/css" href="style.css">
 
-    <script type="text/javascript">
-    
-</script>
-<title>C82 hw</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </head>
 <body class="body_backgorund">
 
 <div align="center">
 <h1>Paint</h1>
-
     <canvas id="myCanvas" width="800" height="600"></canvas>
         <br><br >
+        <span id = "label">Color</span>
+        <input type = "text" id = "color">
+        <span id = "label">Width</span>
+        <input type = "text" id = "width_of_line">
+        <button onclick = "cleararea()">Clear</button>
+<!--Additional activity -->
 
-<span id = "labels">Color</span>
-<input type="text" id = "color">
-<span id = "lables">Circle Width</span>
-<input type = "text" id = "width">
-<span id = "lables">Circle Size</span>
-<input type = "text" id = "radius">
-
-<button onclick = "cleararea()">Clear Area</button>
     </div>
 <script src="main.js"></script>
 </body>
